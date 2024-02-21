@@ -17,6 +17,11 @@ const userSchema = new Schema ({
         required:true,
         minlength:6,
     },
+    isAdnin:{
+        type:Boolean,
+        required:true,
+        default:false,
+    }
 
      
     });
